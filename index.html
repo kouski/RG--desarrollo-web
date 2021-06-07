@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>RG | Desarrollo Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/W3.css">
+<script  src="./javascript.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+  <a href="#Home" class="w3-bar-item w3-button"><b>RG</b> Desarrollo Web</a>
+  <a href="#contact" class="w3-bar-item w3-right w3-button w3-hide-small">Contacto</a>
+  <a href="#about" class="w3-bar-item w3-right w3-button w3-hide-small">Nuestra Empresa</a>
+  <a href="#projects" class="w3-bar-item w3-right w3-button w3-hide-small">Servicios</a>
+  
+  
+  <a href="javascript:void(0)"  class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block  w3-white w3-hide w3-hide-large w3-hide-medium">
+  <a href="#projects" class="w3-bar-item w3-button">Servicios</a>
+  <a href="#about" class="w3-bar-item w3-button">Nuestra Empresa</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+</div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;"  id="home">
+  <img class="w3-image" src="/imagenes/web.jpg" alt="Desarrollo web" width="1500" height="500" style="max-height: 450px;">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>RG</b></span> <span class="w3-hide-small w3-text-light-grey">Desarrollo Web</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Servicios</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Desarrollo Web</div>
+        <img src="/imagenes/Desarrollo web.jpg" alt="Desarrollo web" style="width:99%">
+        <p class="w3-opacity">Desarrollo web</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><a href="desarrollo.html" class="w3-button w3-light-grey w3-block">Más información</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Diseño Web</div>
+        <img src="/imagenes/diseno_web.jpg" alt="diseño web" style="width:99%">
+        <p class="w3-opacity">Diseño web</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><a href="diseno.html" class="w3-button w3-light-grey w3-block">Más información</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Gestión Web</div>
+        <img src="/imagenes/gestion_web.jpg" alt="Gestion web" style="width:99%">
+        <p class="w3-opacity">Gestión web</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><a href="gestion.html" class="w3-button w3-light-grey w3-block">Más información</a></p>
+        
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Mantenimiento Web</div>
+        <img src="/imagenes/mantenimiento_web.jpg" alt="Mantenimiento web" style="width:99%">
+      <p class="w3-opacity">Mantenimiento web</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><a href="mantenimiento.html" class="w3-button w3-light-grey w3-block">Más información</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Nuestra Empresa</h3>
+    <p style="text-align: justify;">Nuestra Empresa inicia su andadura en 2020, como consecuencia de la pandemia, un grupo de desarrolladores web
+      que trabajabamos en pymes, nos juntamos para satisfacer las necesidades tecnológicas de las pequeñas y medianas empresas.
+      La pandemia ha obligado a muchas empresas a tratar de ponerse al día tecnológicamente y nosotros conocemos perfectamente
+      las necesidades de pequeñas y medianas empresas.
+    </p>
+  </div>
+
+  
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contacto</h3>
+    <p>Rellene y envíe el formulario y le contactaremos en 24 horas</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="&#xf2bb  Nombre" style="font-family:Arial,FontAwesome;" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="&#xf199 Email" style="font-family:Arial,FontAwesome;" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="&#xf27a Asunto" style="font-family:Arial,FontAwesome;" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="&#xf27a Comentarios" style="font-family:Arial,FontAwesome;" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p><svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-envelope-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
+  <span style="margin-left: 10px;"><a href="mailto:info@proysesa.com">info@proysesa.com</a></span>
+  </svg></p>
+  
+  
+  <p><svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+    <span style="margin-left: 10px;">C/ Chile,10. 28290 Las Matas. Madrid</span>
+  </svg></p>
+
+
+  <p><svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+    <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    <span style="margin-left: 10px;">+34 916307159</span>
+    </svg></p>   
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
